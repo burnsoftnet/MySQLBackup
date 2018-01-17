@@ -12,7 +12,7 @@ to tell it to execute the net copy function.
 NOTE:  There are some settings in the script that you will have to setup in the code, Please see the settings 
 sections for more details
 
-Switches
+## Switches
 
 <table>
 <tr>
