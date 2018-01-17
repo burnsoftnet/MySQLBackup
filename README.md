@@ -9,8 +9,7 @@ In Addition, there is an option to mount to a network drive and also have the da
 copied to that network drive.  This can be setup in the settings or you can pass a parameter to the script
 to tell it to execute the net copy function.
 
-NOTE:  There are some settings in the script that you will have to setup in the code, Please see the settings 
-sections for more details
+**NOTE:  There are some settings in the script that you will have to setup in the code, Please see the settings sections for more details**
 
 ## Switches
 
@@ -29,7 +28,7 @@ sections for more details
 </tr>
 </table>
 
-Settings
+## Settings
 
 <table>
 <tr>
@@ -71,6 +70,10 @@ Settings
 <tr>
 <td>mapNet</td>
 <td>You can use the switch to override this, but you can enable or disable the copy to network share as a default.</td>
+</tr>
+<tr>
+<td>deleteAfterNetCopy</td>
+<td>If enabled, then it will delete the local copy of the backup after it has been copied to the network drive.</td>
 </tr>
 </table>
 
